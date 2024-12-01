@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const { getAllPosts, createNewPost, getPost } = require("../controllers/post");
+const { getPosts, createNewPost, getPost } = require("../controllers/post");
 
-router.route("/").get(getAllPosts).post(createNewPost);
+router.route("/").get(getPosts).post(createNewPost);
 router.route("/:id").get(getPost);
 
 module.exports = router;

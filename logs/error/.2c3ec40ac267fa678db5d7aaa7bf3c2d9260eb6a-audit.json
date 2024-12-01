@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/error/.2c3ec40ac267fa678db5d7aaa7bf3c2d9260eb6a-audit.json",
+    "files": [
+        {
+            "date": 1733061571433,
+            "name": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/error/2024-12-01.error.log",
+            "hash": "5188331c093a5ebf7e6593b20ffdcea5d9ea77715a9f0af1c62c47aae7e3ba43"
+        },
+        {
+            "date": 1733065630268,
+            "name": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/error/2024-12-02.error.log",
+            "hash": "a31f55cd160046280bd262e5cbac3187018e3ad00c6ead98e13b8cad66e9d8f8"
+        }
+    ],
+    "hashType": "sha256"
+}

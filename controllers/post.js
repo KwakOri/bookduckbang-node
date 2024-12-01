@@ -1,6 +1,6 @@
 const client = require("../config/db");
 
-const getAllPosts = async (req, res) => {
+const getPosts = async (req, res) => {
   const query = `SELECT * FROM posts`;
   const { rows } = await client.query(query);
   res.send(rows);
@@ -28,4 +28,4 @@ const getPost = async (req, res) => {
   res.send(rows[0]);
 };
 
-module.exports = { getAllPosts, createNewPost, getPost };
+module.exports = { getPosts, createNewPost, getPost };
