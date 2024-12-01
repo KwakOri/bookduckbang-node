@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/.63594f8b8807c90955689795f00ab9a8b87881d2-audit.json",
+    "files": [
+        {
+            "date": 1733061571434,
+            "name": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/2024-12-01.exception.log",
+            "hash": "0587b9ffc6cdcb86b6c26e3d3b13df590689ea930f7491741de1f6771f21b6ec"
+        }
+    ],
+    "hashType": "sha256"
+}
