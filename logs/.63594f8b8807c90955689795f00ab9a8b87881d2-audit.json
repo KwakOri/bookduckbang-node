@@ -9,6 +9,11 @@
             "date": 1733061571434,
             "name": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/2024-12-01.exception.log",
             "hash": "0587b9ffc6cdcb86b6c26e3d3b13df590689ea930f7491741de1f6771f21b6ec"
+        },
+        {
+            "date": 1733065630269,
+            "name": "/Users/kwakori/projects/personal-project/bookduckbang/node/logs/2024-12-02.exception.log",
+            "hash": "d02e790a699e8102af42a2159d475d925fdbe595884da6f75bee53c5934efe27"
         }
     ],
     "hashType": "sha256"

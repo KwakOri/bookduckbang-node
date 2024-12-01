@@ -17,7 +17,7 @@ const update = (reqBody) => {
   if (Object.keys(reqBody).length <= 0) return null;
   const reqBodyEntries = Object.entries(reqBody);
   const values = reqBodyEntries
-    .map(([key, value]) => `${key} = ${value}`)
+    .map(([key, value]) => `${key} = '${value}'`)
     .join(",");
   return { values };
 };

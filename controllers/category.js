@@ -33,11 +33,9 @@ const deleteCategory = async (req, res) => {
 
 const updateCategory = async (req, res) => {
   try {
-    const { category_name } = req.body;
-    const { values } = createPGQuery.update(req.body);
-    await client.query(
-      `UPDATE categories SET ${values} WHERE category_name = ${category_name}`
-    );
+    const { where, ...replaceValues } = req.body;
+    const { values } = createPGQuery.update(replaceValues);
+    await client.query(`UPDATE categories SET ${values} WHERE ${where}`);
     res.send({ success: true });
   } catch (err) {
     res.send({ success: false, err });

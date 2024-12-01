@@ -1,0 +1,19 @@
+2024-12-01 23:52:34 [bookduckbang] error: uncaughtException: terminating connection due to administrator command
+error: terminating connection due to administrator command
+    at Parser.parseErrorMessage (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg-protocol/dist/parser.js:283:98)
+    at Parser.handlePacket (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg-protocol/dist/parser.js:122:29)
+    at Parser.parse (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg-protocol/dist/parser.js:35:38)
+    at Socket.<anonymous> (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+2024-12-01 23:52:34 [bookduckbang] error: uncaughtException: Connection terminated unexpectedly
+Error: Connection terminated unexpectedly
+    at Connection.<anonymous> (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg/lib/client.js:131:73)
+    at Object.onceWrapper (node:events:627:28)
+    at Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/kwakori/projects/personal-project/bookduckbang/node/node_modules/pg/lib/connection.js:62:12)
+    at Socket.emit (node:events:513:28)
+    at TCP.<anonymous> (node:net:350:12)
