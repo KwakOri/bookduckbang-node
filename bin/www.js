@@ -1,5 +1,7 @@
 const app = require("../app");
 
+const logger = require("../config/logger");
+
 app.listen(process.env.PORT, () => {
-  console.log("서버 실행");
+  logger.info("Server is working");
 });
